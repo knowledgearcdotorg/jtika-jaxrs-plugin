@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.7" type="plugin" group="jtika" method="upgrade">
+    <name>plg_jtika_jaxrs</name>
+    <creationDate>2018-04-06</creationDate>
+    <author>KnowledgeArc Ltd</author>
+    <authorEmail>development@knowledgearc.com</authorEmail>
+    <authorUrl>http://www.knowledgearc.org</authorUrl>
+    <copyright>>Copyright (C) 2018 KnowledgeArc Ltd. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-3.0.html</license>
+    <version>1.0.0-dev</version>
+    <description>PLG_JTIKA_JAXRS_XML_DESCRIPTION</description>
+    <files>
+        <filename plugin="jaxrs">jaxrs.php</filename>
+    </files>
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.plg_jtika_jaxrs.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.plg_jtika_jaxrs.sys.ini</language>
+    </languages>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field
+                    name="url"
+                    type="text"
+                    label="PLG_JTIKA_DSPACE_FIELD_BASEURL_LABEL"
+                    description="PLG_JTIKA_DSPACE_FIELD_BASEURL_DESC"
+                    size="45"/>
+                <field
+                    name="allowed_content_types"
+                    type="text"
+                    label="PLG_JTIKA_JAXRS_ALLOWEDCONTENTTYPES_LABEL"
+                    description="PLG_JTIKA_JAXRS_ALLOWEDCONTENTTYPES_DESC"
+                    size="45"/>
+                <field
+                    name="allowed_full_text_indexing"
+                    type="text"
+                    label="PLG_JTIKA_JAXRS_ALLOWEDFULLTEXTINDEXING_LABEL"
+                    description="PLG_JTIKA_JAXRS_ALLOWEDFULLTEXTINDEXING_DESC"
+                    size="45"/>
+            </fieldset>
+        </fields>
+    </config>
+
+    <updateservers>
+        <server type="extension" priority="1" name="JTika JAXRS Plugin"><![CDATA[https://raw.githubusercontent.com/knowledgearcdotorg/jtika-jaxrs-plugin/master/manifest.xml]]></server>
+    </updateservers>
+</extension>
