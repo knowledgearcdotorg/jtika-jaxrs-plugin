@@ -51,7 +51,7 @@ class PlgJTikaJaxrs extends \JPlugin
         $url = $this->params->get('url');
 
         if ($url) {
-            if (substr_compare($url, '/', strlen($url)- 1) === false) {
+            if (substr_compare($url, '/', -strlen('/')) !== 0) {
                 $url .= '/';
             }
         }

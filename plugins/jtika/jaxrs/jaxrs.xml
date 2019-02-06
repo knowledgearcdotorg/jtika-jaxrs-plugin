@@ -22,20 +22,20 @@
                 <field
                     name="url"
                     type="text"
-                    label="PLG_JTIKA_DSPACE_FIELD_BASEURL_LABEL"
-                    description="PLG_JTIKA_DSPACE_FIELD_BASEURL_DESC"
+                    label="PLG_JTIKA_JAXRS_FIELD_URL_LABEL"
+                    description="PLG_JTIKA_JAXRS_FIELD_URL_DESC"
                     size="45"/>
                 <field
                     name="allowed_content_types"
                     type="text"
-                    label="PLG_JTIKA_JAXRS_ALLOWEDCONTENTTYPES_LABEL"
-                    description="PLG_JTIKA_JAXRS_ALLOWEDCONTENTTYPES_DESC"
+                    label="PLG_JTIKA_JAXRS_FIELD_ALLOWEDCONTENTTYPES_LABEL"
+                    description="PLG_JTIKA_JAXRS_FIELD_ALLOWEDCONTENTTYPES_DESC"
                     size="45"/>
                 <field
                     name="allowed_full_text_indexing"
                     type="text"
-                    label="PLG_JTIKA_JAXRS_ALLOWEDFULLTEXTINDEXING_LABEL"
-                    description="PLG_JTIKA_JAXRS_ALLOWEDFULLTEXTINDEXING_DESC"
+                    label="PLG_JTIKA_JAXRS_FIELD_ALLOWEDFULLTEXTINDEXING_LABEL"
+                    description="PLG_JTIKA_JAXRS_FIELD_ALLOWEDFULLTEXTINDEXING_DESC"
                     size="45"/>
             </fieldset>
         </fields>
